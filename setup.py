@@ -75,9 +75,6 @@ setup(name='reef',
           'test': PyTest,
       },
       entry_points={
-          'paste.app_factory': [
-              'main = reef:main'
-          ],
           'babel.extractors': [
               'plim = plim.adapters.babelplugin:extract'
           ]
