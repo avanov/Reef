@@ -1,6 +1,7 @@
 -inherit /pacific.plim
 
-head: title = project
+head
+    title = project
 body
-    = project
-#user = user
+    = user
+

@@ -1,0 +1,9 @@
+reef.app:
+    dev:
+        - src/3rdparty/bootstrap/css/bootstrap.css
+        - src/3rdparty/bootstrap/js/bootstrap.js
+        - src/css/styles.css
+
+    prod:
+        - app.css
+        - app.js
